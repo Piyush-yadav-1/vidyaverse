@@ -31,14 +31,14 @@ export default function AboutPage() {
             transition={{ duration: 0.6 }}
           >
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-800 border border-slate-700 text-indigo-400 text-sm font-semibold mb-6">
-               <Stethoscope className="w-4 h-4" /> Revolutionizing MedEd
+               <Stethoscope className="w-4 h-4" /> Simplifying University Exams
             </div>
             <h1 className="text-4xl md:text-6xl font-extrabold text-white tracking-tight mb-6">
               Medical Education, <br/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">Reimagined.</span>
             </h1>
             <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-10">
-              VidyaVerse is a next-generation academic platform designed to make complex medical concepts accessible, visual, and easy to master.
+              VidyaVerse is a next-generation academic platform designed to make MBBS University exam PYQ solutions accessible, visual, and easy to master.
             </p>
           </motion.div>
         </div>
@@ -125,7 +125,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold text-slate-900 mb-4">Meet the Team</h2>
             <p className="text-slate-600 max-w-2xl mx-auto mb-16">
-                VidyaVerse is built by passionate medical students and educators dedicated to simplifying healthcare education.
+                VidyaVerse is built by passionate medical student dedicated to simplifying MBBS proff exams.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
