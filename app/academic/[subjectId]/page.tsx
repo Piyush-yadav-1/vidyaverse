@@ -16,9 +16,9 @@ const courseData: Record<string, any> = {
     color: "text-rose-600 bg-rose-50 border-rose-200",
     units: [
       {
-        title: "Unit 1: Upper Limb",
+        title: "Unit 1: Head, Neck & Face",
         topics: [
-            { title: "Introduction to Upper Limb", slug: "intro-upper-limb", type: "video+note" },
+            { title: "Scalp & Face", slug: "scalp-face", type: "video+note" },
             { title: "The Brachial Plexus", slug: "brachial-plexus", type: "video+note" },
             { title: "Shoulder Joint Complex", slug: "shoulder-joint", type: "video+note" },
             { title: "Axilla & its Contents", slug: "axilla", type: "video+note" },
