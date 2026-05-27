@@ -33,6 +33,135 @@ export const topicContent: Record<string, any> = {
       notes: `<p>The glenohumeral joint is a ball and socket joint...</p>`
     },
 
+    // --- Anatomy: Head, Neck  & Face
+    
+    "scalp-face": {
+      title: "Scalp & Face",
+      videoUrl: "coming-soon", 
+      duration: "15 mins",
+      notes:       `
+      <div class="topic-content">
+        <h1>Scalp and Face Anatomy</h1>
+        <p><em>High-Yield PYQ Notes for MBBS Final Year</em></p>
+
+        <h2>1. Layers of Scalp (3 Marks)</h2>
+        <p><em>Remember the mnemonic <strong>SCALP</strong>. The first three layers are firmly bound together and move as a single unit (the surgical scalp).</em></p>
+        <ul>
+            <li><strong>S - Skin:</strong> Thick, contains numerous hair follicles and sebaceous glands. (Most common site for sebaceous cysts).</li>
+            <li><strong>C - Connective Tissue (Superficial Fascia):</strong> Fibro-fatty layer. Highly vascular. <span class="highlight">Applied:</span> Blood vessels are firmly attached to fibrous septa. If cut, they cannot retract, leading to <strong>profuse bleeding</strong>.</li>
+            <li><strong>A - Aponeurosis (Galea Aponeurotica):</strong> A broad tendinous sheet connecting the frontal and occipital bellies of the occipitofrontalis muscle.</li>
+            <li><strong>L - Loose Areolar Tissue:</strong> The <strong>"Dangerous area of the scalp"</strong>. <span class="highlight">Applied:</span> Contains emissary veins. Infection here can spread via these valveless veins to the intracranial dural venous sinuses, causing thrombosis.</li>
+            <li><strong>P - Pericranium:</strong> The outer periosteum of the skull bones. Loosely attached to the bone surface but firmly attached at the sutures.</li>
+        </ul>
+
+        <h2>2. Cutaneous Nerve Supply of Scalp (2 Marks)</h2>
+        <p><em>The scalp is innervated by branches of the Trigeminal nerve (anteriorly) and Cervical spinal nerves (posteriorly). The division line is the auricle (ear).</em></p>
+        
+        <div style="text-align: center; margin: 20px 0; padding: 20px; border: 2px dashed #3498db; background-color: #f7f9fa; color: #2980b9; font-weight: bold;">
+            [Insert Hand-Drawn Diagram: Cutaneous Nerve Supply of Scalp]
+        </div>
+
+        <h3>A. Anterior to the Auricle (Trigeminal Nerve Branches)</h3>
+        <ul>
+            <li><strong>Supratrochlear Nerve</strong> (V1 - Ophthalmic)</li>
+            <li><strong>Supraorbital Nerve</strong> (V1 - Ophthalmic)</li>
+            <li><strong>Zygomaticotemporal Nerve</strong> (V2 - Maxillary)</li>
+            <li><strong>Auriculotemporal Nerve</strong> (V3 - Mandibular)</li>
+        </ul>
+
+        <h3>B. Posterior to the Auricle (Cervical Spinal Nerves)</h3>
+        <ul>
+            <li><strong>Great Auricular Nerve</strong> (Ventral rami C2, C3)</li>
+            <li><strong>Lesser Occipital Nerve</strong> (Ventral ramus C2)</li>
+            <li><strong>Greater Occipital Nerve</strong> (Dorsal ramus C2)</li>
+            <li><strong>Third Occipital Nerve</strong> (Dorsal ramus C3)</li>
+        </ul>
+        <p><strong>Applied Anatomy:</strong> Because nerves run in the superficial connective tissue layer from the periphery toward the crown, a "Scalp Block" (local anesthesia injected in a ring around the head) can effectively anesthetize the entire scalp for laceration repairs.</p>
+
+        <h2>3. Dangerous Area of Face (3 Marks)</h2>
+        <p><em>A region where superficial facial infections can lead to life-threatening intracranial complications.</em></p>
+
+        <div style="text-align: center; margin: 20px 0; padding: 20px; border: 2px dashed #3498db; background-color: #f7f9fa; color: #2980b9; font-weight: bold;">
+            [Insert Hand-Drawn Diagram: Dangerous Area of Face and Venous Communications]
+        </div>
+
+        <ul>
+            <li><strong>Location:</strong> The lower part of the nose, upper lip, and adjoining areas of the cheek.</li>
+            <li><strong>Anatomical Basis:</strong> The <strong>Facial Vein</strong> is valveless. It communicates directly with the intracranial <span class="highlight">Cavernous Sinus</span>.</li>
+            <li><strong>Routes of Communication:</strong>
+                <ol>
+                    <li>Facial Vein ➔ Superior Ophthalmic Vein ➔ Cavernous Sinus.</li>
+                    <li>Deep Facial Vein ➔ Pterygoid Venous Plexus ➔ Emissary Veins ➔ Cavernous Sinus.</li>
+                </ol>
+            </li>
+            <li><strong>Clinical Application:</strong> Infections (like boils/furuncles) in this area should never be squeezed. Retrograde spread of infected emboli can lead to <strong>Cavernous Sinus Thrombosis</strong> (characterized by high fever, chemosis, ophthalmoplegia, and potential fatality).</li>
+        </ul>
+
+        <h2>4. Black Eye (3 Marks)</h2>
+        <p><em>Also known as periorbital ecchymosis or "Raccoon eyes".</em></p>
+        <ul>
+            <li><strong>Definition:</strong> Accumulation of blood and fluid in the loose areolar tissue surrounding the orbit (specifically the eyelids).</li>
+            <li><strong>Mechanism:</strong> The frontal belly of the occipitofrontalis muscle has <strong>no bony attachment anteriorly</strong>; its fibers blend directly with the skin of the eyebrows and eyelids.</li>
+            <li><strong>Causes:</strong>
+                <ul>
+                    <li><strong>Direct Trauma:</strong> A blow to the face.</li>
+                    <li><strong>Indirect (Base of Skull Fracture):</strong> A fracture in the <span class="highlight">Anterior Cranial Fossa</span>. Blood tracks forward under the epicranial aponeurosis (loose areolar tissue layer) and settles in the upper eyelids due to gravity and lack of anterior bony attachment.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>5. Blood Supply of Face (3 Marks)</h2>
+        <p><em>The face has an extremely rich blood supply, which allows for rapid healing of facial wounds but also causes heavy bleeding.</em></p>
+
+        <div style="text-align: center; margin: 20px 0; padding: 20px; border: 2px dashed #3498db; background-color: #f7f9fa; color: #2980b9; font-weight: bold;">
+            [Insert Hand-Drawn Diagram: Arterial and Venous Supply of Face]
+        </div>
+
+        <h3>A. Arterial Supply</h3>
+        <ul>
+            <li><strong>Facial Artery (Chief Artery):</strong> Branch of the external carotid artery. It is notably <strong>tortuous</strong> to accommodate stretching during chewing, swallowing, and facial expressions. Branches include the inferior labial, superior labial, and lateral nasal arteries.</li>
+            <li><strong>Transverse Facial Artery:</strong> A branch of the superficial temporal artery.</li>
+            <li><strong>Other Branches:</strong> Supratrochlear & Supraorbital (from Ophthalmic artery), Infraorbital & Mental (from Maxillary artery).</li>
+        </ul>
+
+        <h3>B. Venous Drainage</h3>
+        <ul>
+            <li><strong>Facial Vein:</strong> Formed at the medial angle of the eye by the union of the supratrochlear and supraorbital veins (angular vein). It runs downwards and backwards to join the anterior division of the retromandibular vein, eventually draining into the <strong>Internal Jugular Vein</strong>.</li>
+            <li><strong>Retromandibular Vein:</strong> Formed by the union of the superficial temporal and maxillary veins.</li>
+        </ul>
+
+        <div class="viva-section">
+            <h3 style="margin-top:0;">🔥 Rapid Fire Viva (High Yield)</h3>
+            <p><em>Cover the notes above and answer:</em></p>
+            <ol style="margin-left: 20px; list-style-type: decimal;">
+                <li>Why do superficial scalp wounds bleed so profusely?</li>
+                <li>Which specific layer is known as the "Dangerous area of the scalp" and why?</li>
+                <li>Why is it strictly advised not to squeeze a boil located on the upper lip?</li>
+                <li>Why is the facial artery highly tortuous?</li>
+                <li>How can a fracture of the anterior cranial fossa result in a "Black Eye"?</li>
+            </ol>
+            
+            <hr style="border: 0; border-top: 1px solid #7f8c8d; margin: 20px 0;">
+
+            <details>
+                <summary style="font-size: 1.1em; color: #ffd54f;">▼ Click to Reveal Answers</summary>
+                <div class="answer-reveal">
+                    <ol>
+                        <li>Because the blood vessels are firmly attached to the dense fibrous septa of the <strong>connective tissue layer</strong>, preventing the cut ends from retracting and closing off.</li>
+                        <li>The <strong>Loose Areolar Tissue</strong> (Layer 4). It contains emissary veins which can transmit infection directly into the intracranial dural venous sinuses.</li>
+                        <li>The upper lip is in the <strong>Dangerous Area of the Face</strong>. Squeezing can push infected emboli retrogradely through valveless facial veins into the <strong>Cavernous Sinus</strong>.</li>
+                        <li>To allow for the significant stretching and movement of the face during <strong>mastication (chewing) and facial expressions</strong> without occluding blood flow.</li>
+                        <li>Because the frontalis muscle has <strong>no anterior bony attachment</strong>. Blood from the fractured fossa tracks forward through the loose areolar tissue and settles directly into the eyelids.</li>
+                    </ol>
+                </div>
+            </details>
+        </div>
+      </div>
+      `
+
+    },
+
+    
     // --- SURGERY: UROLOGY ---
     
     
