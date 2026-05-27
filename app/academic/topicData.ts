@@ -39,7 +39,24 @@ export const topicContent: Record<string, any> = {
       title: "Scalp & Face",
       videoUrl: "coming-soon", 
       duration: "15 mins",
-      notes:       `
+      notes:   
+          <style>
+        /* Scoped Styles for these notes to ensure they look exactly like your HTML */
+        .tb-notes { font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #333; }
+        .tb-notes h1 { color: #003366; border-bottom: 4px solid #003366; padding-bottom: 10px; text-align: center; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 30px; margin-top: 0; }
+        .tb-notes h2 { color: #003366; background-color: #e3f2fd; border-left: 6px solid #1565c0; padding: 10px; margin-top: 35px; border-radius: 0 5px 5px 0; font-size: 1.5rem; font-weight: bold; }
+        .tb-notes h3 { color: #b71c1c; margin-top: 25px; border-bottom: 1px dashed #ccc; padding-bottom: 5px; display: inline-block; font-size: 1.25rem; font-weight: bold; }
+        .tb-notes ul { list-style-type: disc; padding-left: 20px; margin-bottom: 1rem; }
+        .tb-notes li { margin-bottom: 0.5rem; }
+        .tb-notes .highlight { background-color: #fff3cd; font-weight: bold; padding: 2px 6px; border-radius: 4px; color: #000; border: 1px solid #ffeeba; }
+        .tb-notes .recall-box { background-color: #fff0f6; border: 2px dashed #d32f2f; padding: 15px; margin: 20px 0; border-radius: 8px; }
+        .tb-notes details summary { cursor: pointer; color: #c62828; font-weight: bold; outline: none; list-style: none; }
+        .tb-notes details summary::-webkit-details-marker { display: none; } /* Hide default arrow to use custom styling if needed, or keep simple */
+        .tb-notes .viva-section { background-color: #263238; color: #eceff1; padding: 30px; border-radius: 12px; margin-top: 60px; border: 1px solid #37474f; }
+        .tb-notes .viva-section h3 { color: #ffd54f; border: none; }
+        .tb-notes .answer-reveal { margin-top: 20px; padding: 15px; background-color: #fff; color: #333; border: 1px solid #ccc; border-radius: 5px; }
+        .tb-notes .answer-reveal ol { list-style-type: decimal; padding-left: 20px; }
+      </style>`
       <div class="topic-content">
         <h1>Scalp and Face Anatomy</h1>
         <p><em>High-Yield PYQ Notes for MBBS Final Year</em></p>
