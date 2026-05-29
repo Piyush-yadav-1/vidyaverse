@@ -132,7 +132,7 @@ export default function AboutPage() {
                 {/* Team Member 1 */}
                 <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 hover:shadow-lg transition">
                     <div className="w-24 h-24 bg-slate-200 rounded-full mx-auto mb-6 overflow-hidden">
-                        <img src="/app/about/Dr. Aayush Yadav.jpg" alt="Founder" />
+                        <img src="/app/about/DrAayushYadav.jpg" alt="Founder" />
                     </div>
                     <h3 className="text-xl font-bold text-slate-900">Dr. Aayush Yadav</h3>
                     <p className="text-indigo-600 font-medium mb-4">Founder & Lead Educator</p>
@@ -144,7 +144,7 @@ export default function AboutPage() {
                 {/* Team Member 2 (Placeholder) */}
                 <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 hover:shadow-lg transition">
                     <div className="w-24 h-24 bg-slate-200 rounded-full mx-auto mb-6 overflow-hidden">
-                        <img src="/app/about/Dr. Aayush Yadav.jpg" alt="Content Team" />
+                        <img src="/app/about/DrAayushYadav.jpg" alt="Content Team" />
                     </div>
                     <h3 className="text-xl font-bold text-slate-900">Dr. Aayush Yadav</h3>
                     <p className="text-emerald-600 font-medium mb-4">Research & Notes</p>
