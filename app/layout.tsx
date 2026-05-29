@@ -31,7 +31,7 @@ export default function RootLayout({
           {/* Watermark Logo */}
           <div className="absolute inset-0 flex items-center justify-center opacity-5 pointer-events-none">
             <Image 
-              src="/logo.png" 
+              src="/newlogo.png" 
               alt="Background Watermark" 
               width={600} 
               height={600}
