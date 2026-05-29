@@ -140,7 +140,7 @@ export default function Home() {
               className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100"
             >
               <div className="flex text-yellow-400 mb-4">★★★★★</div>
-              <p className="text-slate-600 mb-6 italic">"I used to get panic attacks before math tests. The 'Exam Anxiety' guided session in the Spiritual Zone actually works."</p>
+              <p className="text-slate-600 mb-6 italic">"I used to get panic attacks before pathology test. The 'Exam Anxiety' guided session in the Spiritual Zone actually works."</p>
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center font-bold text-purple-600">PR</div>
                 <div>
