@@ -40,7 +40,7 @@ export const topicContent: Record<string, any> = {
       videoUrl: "coming-soon", 
       duration: "15 mins",
       notes:   
-          
+          '
       <div class="topic-content">
         <h1>Scalp and Face Anatomy</h1>
         <p><em>High-Yield PYQ Notes for MBBS Final Year</em></p>
