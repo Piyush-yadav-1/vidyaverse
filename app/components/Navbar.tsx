@@ -115,7 +115,7 @@ function InnerNavbar() {
           {/* LOGO */}
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="flex items-center gap-2">
-              <Image src="public/newlogo.png" alt="VidyaVerse Logo" width={60} height={60} className="w-10 h-10 object-contain"/>
+              <Image src="public/logo.png" alt="VidyaVerse Logo" width={60} height={60} className="w-10 h-10 object-contain"/>
               <span className="text-2xl font-bold text-slate-900 tracking-tight">
                 Vidya<span className="text-indigo-600">Verse</span>
               </span>
